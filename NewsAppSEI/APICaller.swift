@@ -10,7 +10,7 @@ final class APICaller {
     static let instance = APICaller()
     struct defaultVal{
         static let newsURL = URL(string:
-            "https://newsapi.org/v2/top-headlines?country=US&apiKey=b3d2ab56c027402aa43c9ba9f34ac785")
+            "https://newsapi.org/v2/top-headlines?country=US&apiKey=APIKEY")
     }
     private init(){}
 
